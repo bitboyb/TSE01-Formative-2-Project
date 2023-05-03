@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footsteps_Walking" ID="{75E7426D-5509-4EB4-934D-53CB04185D21}"/>
+				<Event Name="Play_Footsteps_Running" ID="{9DE7B952-8736-45E7-8819-F546722DE762}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

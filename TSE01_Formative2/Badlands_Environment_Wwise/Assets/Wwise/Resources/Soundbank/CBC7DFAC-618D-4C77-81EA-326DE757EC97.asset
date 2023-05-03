@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7deb8a7ace64f9a478b425b51b496d87, type: 3}
+  m_Name: CBC7DFAC-618D-4C77-81EA-326DE757EC97
+  m_EditorClassIdentifier: 
+  objectName: Master_SoundBank
+  id: 2469504869
+  guid: CBC7DFAC-618D-4C77-81EA-326DE757EC97

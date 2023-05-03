@@ -1,0 +1,4 @@
+Event	ID	Name			Wwise Object Path	Notes
+	203814959	Play_Footsteps_Running			\Default Work Unit\Play_Footsteps_Running	
+	1871925003	Play_Footsteps_Walking			\Default Work Unit\Play_Footsteps_Walking	
+
