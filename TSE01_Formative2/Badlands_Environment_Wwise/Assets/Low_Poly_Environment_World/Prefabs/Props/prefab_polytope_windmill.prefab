@@ -61,6 +61,24 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 6737b8e99723d044880ed5b87c7d71ae, type: 3}
+--- !u!114 &5684333790946238810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6302863518214257533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779b8bdbed540204ca7ec2eb2844fef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colourPreset:
+    preset: 0
+    isDebugMode: 0
+  spotAudioEvent: Play_Windmill
+  maxAttenuation: 25
+  isDebugMode: 0
 --- !u!1001 &6302863518214159835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143,6 +161,12 @@ GameObject:
 --- !u!4 &6302863518214023003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6737b8e99723d044880ed5b87c7d71ae,
+    type: 3}
+  m_PrefabInstance: {fileID: 6302863518214159835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6302863518214257533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: 6737b8e99723d044880ed5b87c7d71ae,
     type: 3}
   m_PrefabInstance: {fileID: 6302863518214159835}
   m_PrefabAsset: {fileID: 0}

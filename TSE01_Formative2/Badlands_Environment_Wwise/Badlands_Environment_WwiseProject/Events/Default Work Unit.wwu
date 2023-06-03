@@ -3,8 +3,283 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Footsteps_Walking" ID="{75E7426D-5509-4EB4-934D-53CB04185D21}"/>
-				<Event Name="Play_Footsteps_Running" ID="{9DE7B952-8736-45E7-8819-F546722DE762}"/>
+				<Folder Name="DEBUG" ID="{229E95AD-FF2C-4C7A-BB7A-03907BABA9F4}" ShortID="875937241">
+					<ChildrenList>
+						<Event Name="Play_SpotTest_2D" ID="{8757EC93-F0E3-4253-BA1B-FBB18BDC21AF}">
+							<ChildrenList>
+								<Action Name="" ID="{D14083D6-789F-4267-A8BD-216B9A8CB9FC}" ShortID="900334884">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2D" ID="{57A35011-7985-41FA-983D-D40CBFEFE6C2}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SpotTest_3D" ID="{6EDEB1AF-09F4-4522-B31B-7A2C726E8A1A}">
+							<ChildrenList>
+								<Action Name="" ID="{1CF0B3D6-B164-48EF-8358-E48C5315F55C}" ShortID="739946789">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3D" ID="{EA2F3CBD-DB81-4C2D-BDB4-0015A7D78F7E}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_LoopTest_2D" ID="{4D0CE729-45BF-40EF-84B5-E38B4DD2114D}">
+							<ChildrenList>
+								<Action Name="" ID="{4B189BE9-6457-47C8-BA67-11A8DE3C2A6F}" ShortID="922273866">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2D" ID="{ED0AE37D-2AE0-45C4-B5BE-6DEBFEFF7A1F}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_LoopTest_3D" ID="{C7401E61-E448-4B7D-960F-6BCDA98EE9E1}">
+							<ChildrenList>
+								<Action Name="" ID="{E108B761-8AF6-4378-8C42-95443D552C22}" ShortID="545614007">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3D" ID="{26A99760-2B62-4F15-AE7A-E8FA1AA20D51}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{EF166C40-BC38-49AC-AFA6-90A430D4FE80}" ShortID="855112209">
+					<ChildrenList>
+						<Folder Name="Player" ID="{16A49E06-0A29-4E36-BEB1-912D32ACA52B}" ShortID="919078022">
+							<ChildrenList>
+								<Event Name="Play_Footsteps_Walking" ID="{75E7426D-5509-4EB4-934D-53CB04185D21}">
+									<ChildrenList>
+										<Action Name="" ID="{DD57C341-EF20-46F7-B7B8-12E7D04D9792}" ShortID="665173870">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="OnWalk" ID="{B600C4A4-E90C-4BD6-BFD9-763F3D9703FC}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Footsteps_Running" ID="{9DE7B952-8736-45E7-8819-F546722DE762}">
+									<ChildrenList>
+										<Action Name="" ID="{2FD4FD50-D1FE-4AD2-BBC7-22FA968C0D57}" ShortID="1031479397">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="OnRun" ID="{7A6BD409-6E29-4E21-B9B9-8E8B087E9058}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="TimeNotify" ID="{9FC476CC-8E6A-4AE0-A7A9-43463A64FDAB}" ShortID="134152220">
+							<ChildrenList>
+								<Event Name="Play_WolfHowl" ID="{A38C6514-F4E9-407B-BDD5-241064052E41}">
+									<ChildrenList>
+										<Action Name="" ID="{DA201541-99FC-4166-9F9A-23D382FF3741}" ShortID="918004608">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_wolf_OnHowl" ID="{31AAA1B2-7751-4256-BF00-9E64079C6AD5}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_RoosterCrow" ID="{CD4A2BF8-0455-4C58-90CB-5E6147ECCB09}">
+									<ChildrenList>
+										<Action Name="" ID="{AB25ED42-6219-47A0-8B32-D2F135843DDE}" ShortID="705046945">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_rooster_OnCrow" ID="{87AC49A5-A241-441F-AC24-CCFD63115628}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AMB" ID="{3E96F879-7DC1-4CC1-BA0F-23B4A5DD47E5}" ShortID="360226591">
+					<ChildrenList>
+						<Event Name="Play_Ambience" ID="{C8E7BF92-2C58-488E-98D1-ED3419EFF9C4}">
+							<ChildrenList>
+								<Action Name="" ID="{2F9C3B5D-E87F-4B3C-94E7-8268D8594A31}" ShortID="141705031">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Location" ID="{A2211E07-7BDF-4A15-BF58-DFEFB27E6ABA}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="3D" ID="{43A78F1E-AE75-413F-AE5C-B49B701771C3}" ShortID="382265736">
+							<ChildrenList>
+								<Event Name="Play_CarSmoke" ID="{1CB40620-054E-4ADA-BD4C-3821C4FACDD7}">
+									<ChildrenList>
+										<Action Name="" ID="{68EA98E1-3DA2-44A3-9AAD-4802F12DCBF7}" ShortID="755156631">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="carSmoke" ID="{48B0C480-0E54-4995-9706-48210B6BE87F}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_StreetLight" ID="{2858EB8B-2A4B-4117-B243-79C52D263886}">
+									<ChildrenList>
+										<Action Name="" ID="{015C802A-377E-4DB2-B767-F593F89B563D}" ShortID="217199786">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_3D_lampPost_electricalFlicker" ID="{CD67D10B-84BE-485E-8605-90C8F444E304}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F7650FD5-0C8E-40B8-AF08-41D0AB778AB0}" ShortID="545354006">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_3D_lampPost_Loop" ID="{9BC574D4-FD36-4D54-9DCE-A8E1DDB1614C}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Windmill" ID="{E13D0097-0B68-4E2E-B58D-0060DCA5EB4A}">
+									<ChildrenList>
+										<Action Name="" ID="{9E5EDF12-53A6-4F97-AEF9-6C4C29E159F6}" ShortID="402982050">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="windmill" ID="{74C64805-690C-49CB-A369-F9BC8AF70579}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_MetalContainer" ID="{C8A37D0E-9117-47E2-8675-40ADFC9407F3}">
+									<ChildrenList>
+										<Action Name="" ID="{9D06D400-4B41-4419-BFF7-CFC5B20A4B32}" ShortID="338159509">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_3D_metal_OnCreek" ID="{CE9FF0E6-CE7C-4B86-843F-B697E4DAF88A}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{879F7477-5C6C-46A9-B4F4-2D19E0CEEFF7}" ShortID="791033627">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{609F5BC8-CE78-45D7-8243-4DAD686C11D4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_3D_metal_OnCreek" ID="{CE9FF0E6-CE7C-4B86-843F-B697E4DAF88A}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{1F2C8B42-BDF2-441D-AD4C-1B5B14021B7B}" ShortID="307525660">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_3D_metal_OnCreek" ID="{CE9FF0E6-CE7C-4B86-843F-B697E4DAF88A}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Foliage" ID="{5CE9723D-96F8-4C1E-81EC-242E4D1DB6F0}">
+									<ChildrenList>
+										<Action Name="" ID="{B97BB1AC-2005-4512-9F4E-8FD5717DBFFF}" ShortID="296428065">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_foliage_loop" ID="{69F111FE-60D3-4D3B-9373-B6BC241DADD3}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{00F3E840-E893-4EA1-81EB-DE3E9F7E025D}" ShortID="330849020">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A7BBF3E0-DBF8-4CC0-AE04-7EDD7D93A9E1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_foliage_loop" ID="{69F111FE-60D3-4D3B-9373-B6BC241DADD3}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{DA8A13AA-2B99-47FB-8EF2-168F4258FC68}" ShortID="52443839">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												<Property Name="Probability" Type="Real64" Value="48"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_foliage_loop" ID="{69F111FE-60D3-4D3B-9373-B6BC241DADD3}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_TarpCrate" ID="{DF66C6A1-F7B0-4964-AECC-5025AD1E21C9}">
+									<ChildrenList>
+										<Action Name="" ID="{1B7D56CD-1B63-415F-A6DC-2974420B34A4}" ShortID="664037118">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="amb_3d_tarpCrate_loop" ID="{5E2D4BE4-E8D9-4245-A1FE-B696B532ACA2}" WorkUnitID="{C67317C4-B08D-4126-A635-5729FAF82D22}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

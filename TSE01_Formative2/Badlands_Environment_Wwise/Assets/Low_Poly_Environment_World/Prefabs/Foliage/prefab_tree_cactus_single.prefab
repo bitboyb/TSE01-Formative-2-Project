@@ -14,6 +14,24 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 7c71c091987b96544aab25818582b89b, type: 3}
+--- !u!114 &42689476110682477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680379847814558045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89132383ae577ce47bcf6f369f2174ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderEvent: Play_Foliage
+  minimumInterval: 30
+  maxInterval: 50
+  attenuation: 15
+  probability: 3
+  maxDistanceReturn: 40
 --- !u!1 &8979849057962092520
 GameObject:
   m_ObjectHideFlags: 0

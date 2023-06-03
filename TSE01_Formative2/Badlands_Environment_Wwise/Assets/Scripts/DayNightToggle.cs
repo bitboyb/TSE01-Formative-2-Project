@@ -32,9 +32,16 @@ public class DayNightToggle : MonoBehaviour
     private Color newFogColor;
 
     public AK.Wwise.RTPC wwiseDayNightRTPC;
+    public string onNight, onDay;
+    private NotifyManager _notifyManager;
+    private AmbienceManager _ambManager;
+    private LightManager _lightManager;
 
     void Start()
     {
+        _ambManager = GameObject.Find("AudioManager").GetComponent<AmbienceManager>();
+        _lightManager = GameObject.Find("AudioManager").GetComponent<LightManager>();
+        
         RenderSettings.skybox = skyBoxToggle;
 
         newLightIntensityMultiplier = 1f;
@@ -47,6 +54,7 @@ public class DayNightToggle : MonoBehaviour
         Debug.Log("Night Light Array Length = " + nightLightArr.Length);
 
         targetRotation = sunObject.transform.rotation;
+        _notifyManager = GameObject.Find("NotifyManager").GetComponent<NotifyManager>();
 
     }
 
@@ -70,6 +78,13 @@ public class DayNightToggle : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.T))
         {
+            if (newIntensity != lightIntensityDay)
+            {
+                AkSoundEngine.PostEvent(onDay, _notifyManager.GetClosestNode());
+                _ambManager.SetTimeOfDay(AmbienceManager.TimeOfDay.Day);
+                _lightManager.ToggleLights(false);
+            }
+            
             newIntensity = lightIntensityDay;
 
             newLightIntensityMultiplier = lightIntensityMultiplierDay;
@@ -83,11 +98,17 @@ public class DayNightToggle : MonoBehaviour
             SetBlendedEulerAngles(currentRotation = new Vector3(sunDay, -859, -391));
 
             //Wwise set global DayNight RTPC to 0
-            wwiseDayNightRTPC.SetGlobalValue(0);
         }
 
         if (Input.GetKeyDown(KeyCode.G))
         {
+            if (newIntensity != lightIntensityNight)
+            {
+                AkSoundEngine.PostEvent(onNight, _notifyManager.GetClosestNode());
+                _ambManager.SetTimeOfDay(AmbienceManager.TimeOfDay.Night);
+                _lightManager.ToggleLights(true);
+            }
+            
             newIntensity = lightIntensityNight;
 
             newLightIntensityMultiplier = lightIntensityMultiplierNight;
@@ -101,7 +122,6 @@ public class DayNightToggle : MonoBehaviour
             SetBlendedEulerAngles(currentRotation = new Vector3(sunNight, -859, -391));
 
             //Wwise set global DayNight RTPC to 1
-            wwiseDayNightRTPC.SetGlobalValue(1);
         }
 
         currentSkybox = skyBoxToggle;

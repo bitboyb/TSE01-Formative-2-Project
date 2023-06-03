@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be1c7f8467b07d4db91c7bc6f005b2c, type: 3}
+  m_Name: 6EDEB1AF-09F4-4522-B31B-7A2C726E8A1A
+  m_EditorClassIdentifier: 
+  objectName: Play_SpotTest_3D
+  id: 3708853332
+  guid: 6EDEB1AF-09F4-4522-B31B-7A2C726E8A1A

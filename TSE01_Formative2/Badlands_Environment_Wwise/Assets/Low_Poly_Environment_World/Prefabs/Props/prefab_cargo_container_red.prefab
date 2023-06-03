@@ -14,6 +14,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: 7a012d37a58934c42a0538189755b6ed, type: 3}
+--- !u!114 &8396248757678654975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2673826555811293928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89132383ae577ce47bcf6f369f2174ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderEvent: Play_MetalContainer
+  minimumInterval: 30
+  maxInterval: 50
+  attenuation: 15
+  probability: 2
 --- !u!64 &3545161803240172321
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28,6 +45,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: 7a012d37a58934c42a0538189755b6ed, type: 3}
+--- !u!114 &647021833275889246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2673826555811293930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89132383ae577ce47bcf6f369f2174ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderEvent: Play_MetalContainer
+  minimumInterval: 30
+  maxInterval: 50
+  attenuation: 15
+  probability: 2
 --- !u!64 &4232297702090249662
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42,6 +76,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 7a012d37a58934c42a0538189755b6ed, type: 3}
+--- !u!114 &4156987596420563781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2673826555811293932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89132383ae577ce47bcf6f369f2174ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderEvent: Play_MetalContainer
+  minimumInterval: 30
+  maxInterval: 50
+  attenuation: 15
+  probability: 2
 --- !u!64 &2788515126326440662
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56,6 +107,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 7a012d37a58934c42a0538189755b6ed, type: 3}
+--- !u!114 &7028465239577117612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2673826555811293934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89132383ae577ce47bcf6f369f2174ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderEvent: Play_MetalContainer
+  minimumInterval: 30
+  maxInterval: 50
+  attenuation: 15
+  probability: 2
 --- !u!1 &2930206128115586531
 GameObject:
   m_ObjectHideFlags: 0
@@ -69,6 +137,7 @@ GameObject:
   - component: {fileID: 5596501776602356058}
   - component: {fileID: 1658087979880675434}
   - component: {fileID: 879628320769305241}
+  - component: {fileID: 1237266495206416431}
   m_Layer: 9
   m_Name: Wall_Colliders
   m_TagString: 'Surface: Metal'
@@ -142,6 +211,90 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.9505804, y: 0.08991289, z: 8.499843}
   m_Center: {x: 0, y: -1.9263072, z: -0.011893272}
+--- !u!114 &1237266495206416431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2930206128115586531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89132383ae577ce47bcf6f369f2174ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderEvent: Play_MetalContainer
+  minimumInterval: 5
+  maxInterval: 20
+  attenuation: 15
+  probability: 5
+--- !u!1 &4762051586215131364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4850319992602233278}
+  - component: {fileID: 4416042889315895241}
+  - component: {fileID: 7998398068041688333}
+  m_Layer: 9
+  m_Name: ReverbZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4850319992602233278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4762051586215131364}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2673826555811395264}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4416042889315895241
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4762051586215131364}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.45, y: 3.6, z: 8.03}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7998398068041688333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4762051586215131364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be1eff0a203c6c46827fa89a9e97f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  excludeOthers: 0
+  isDefault: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 91c8e052b1b4f1543ba6a9c7c5045b34,
+      type: 2}
+  priority: 0
+  auxBusIdInternal: 0
+  valueGuidInternal: 
 --- !u!1 &8545356992141938259
 GameObject:
   m_ObjectHideFlags: 0

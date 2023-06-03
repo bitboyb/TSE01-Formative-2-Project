@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 4704721096902600}
   - component: {fileID: 33343404070742172}
   - component: {fileID: 23238235433699264}
+  - component: {fileID: 370449573958195872}
+  - component: {fileID: 7261045710590727616}
   m_Layer: 9
   m_Name: model_polytope_long_grass02
   m_TagString: Untagged
@@ -110,3 +112,34 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &370449573958195872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994567995382988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89132383ae577ce47bcf6f369f2174ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderEvent: Play_Foliage
+  minimumInterval: 30
+  maxInterval: 50
+  attenuation: 15
+  probability: 3
+  maxDistanceReturn: 40
+--- !u!65 &7261045710590727616
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994567995382988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3111327, y: 0.58648133, z: 0.35245666}
+  m_Center: {x: 0, y: 0, z: 0}

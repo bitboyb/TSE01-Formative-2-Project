@@ -5,7 +5,20 @@
 			<ChildrenList>
 				<SoundBank Name="Master_SoundBank" ID="{CBC7DFAC-618D-4C77-81EA-326DE757EC97}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_WolfHowl" ID="{A38C6514-F4E9-407B-BDD5-241064052E41}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_LoopTest_2D" ID="{4D0CE729-45BF-40EF-84B5-E38B4DD2114D}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_StreetLight" ID="{2858EB8B-2A4B-4117-B243-79C52D263886}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SpotTest_2D" ID="{8757EC93-F0E3-4253-BA1B-FBB18BDC21AF}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SpotTest_3D" ID="{6EDEB1AF-09F4-4522-B31B-7A2C726E8A1A}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Footsteps_Running" ID="{9DE7B952-8736-45E7-8819-F546722DE762}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_MetalContainer" ID="{C8A37D0E-9117-47E2-8675-40ADFC9407F3}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ambience" ID="{C8E7BF92-2C58-488E-98D1-ED3419EFF9C4}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_TarpCrate" ID="{DF66C6A1-F7B0-4964-AECC-5025AD1E21C9}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CarSmoke" ID="{1CB40620-054E-4ADA-BD4C-3821C4FACDD7}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_LoopTest_3D" ID="{C7401E61-E448-4B7D-960F-6BCDA98EE9E1}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Foliage" ID="{5CE9723D-96F8-4C1E-81EC-242E4D1DB6F0}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_RoosterCrow" ID="{CD4A2BF8-0455-4C58-90CB-5E6147ECCB09}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Windmill" ID="{E13D0097-0B68-4E2E-B58D-0060DCA5EB4A}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Footsteps_Walking" ID="{75E7426D-5509-4EB4-934D-53CB04185D21}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

@@ -1294,7 +1294,7 @@
 										<Property Name="DecayTime" Type="Real32" Value="1.1"/>
 										<Property Name="Density" Type="Real32" Value="72"/>
 										<Property Name="Diffusion" Type="Real32" Value="72"/>
-										<Property Name="ERLevel" Type="Real32" Value="-23"/>
+										<Property Name="ERLevel" Type="Real32" Value="-13"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
 										<Property Name="Filter2Freq" Type="Real32" Value="6000"/>
 										<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
@@ -1345,7 +1345,34 @@
 										<Property Name="HFDamping" Type="Real32" Value="5.7"/>
 										<Property Name="PreDelay" Type="Real32" Value="180"/>
 										<Property Name="Quality" Type="int32" Value="14"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-6"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-6">
+											<RTPCList>
+												<RTPC Name="" ID="{8A8BAF13-F89C-4461-9501-6C73D74835E6}" ShortID="992802933">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Attenuation" ID="{517FDEB0-1257-4EBF-89B2-3E50A7F9584A}" WorkUnitID="{76429165-F4E9-4249-B799-94D3E1B4E009}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7397D1F9-568D-4316-BA6B-02BBEB679919}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96.3000030517578</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>96.3</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="RoomSize" Type="Real32" Value="100"/>
 										<Property Name="StereoWidth" Type="Real32" Value="172"/>
 									</PropertyList>
@@ -1354,6 +1381,7 @@
 									<PropertyList>
 										<Property Name="DecayTime" Type="Real32" Value="5.8"/>
 										<Property Name="Density" Type="Real32" Value="70"/>
+										<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
 										<Property Name="ERLevel" Type="Real32" Value="-28"/>
 										<Property Name="ERPattern" Type="int32" Value="9"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="490"/>
@@ -1365,7 +1393,35 @@
 										<Property Name="HFDamping" Type="Real32" Value="5.7"/>
 										<Property Name="PreDelay" Type="Real32" Value="120"/>
 										<Property Name="Quality" Type="int32" Value="14"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-96">
+											<RTPCList>
+												<RTPC Name="" ID="{C0755DD8-68CF-4BAE-92FA-3E7AAD09A7F8}" ShortID="145496138">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Attenuation" ID="{517FDEB0-1257-4EBF-89B2-3E50A7F9584A}" WorkUnitID="{76429165-F4E9-4249-B799-94D3E1B4E009}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FC11A82B-0C0B-4AE8-80E8-7D2441991590}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96.3000030517578</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-9.37994</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="RoomSize" Type="Real32" Value="100"/>
 										<Property Name="StereoWidth" Type="Real32" Value="172"/>
 									</PropertyList>

@@ -12,14 +12,446 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa678a2d800a1a44a126c9e8256008e, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 19c8b90e8273a84bb26ad9d32f35e676
+    GuidInternal: 
+    m_lastTime: -8586044517714775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 72f2bf083c264f4b9b93d2656186a1be
+    GuidInternal: 
+    m_lastTime: -8585159588690410222
+    List:
+    - name: ContainerReverb
+      guid: 88291557ca0c944fa1717f1ad43d3e98
+      id: 847970594
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: ContainerReverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\ContainerReverb
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 46618bb0c85d5f4586d316f6fdef25fc
+    GuidInternal: 
+    m_lastTime: -8585159628991184035
+    List:
+    - name: Master_SoundBank
+      guid: acdfc7cb8d61774c81ea326de757ec97
+      id: 2469504869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit\Master_SoundBank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 93419c0e2676a54ba98bbd61b1e27ad2
+    GuidInternal: 
+    m_lastTime: -8585159628991313430
+    List:
+    - name: Play_Ambience
+      guid: 92bfe7c8582c8e4898d1ed3419eff9c4
+      id: 278617630
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB
+        ObjectType: 4
+      - ElementName: Play_Ambience
+        ObjectType: 3
+      Path: Default Work Unit\AMB\Play_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_CarSmoke
+      guid: 2006b41c4e05da4abd4c3821c4facdd7
+      id: 1644548843
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB
+        ObjectType: 4
+      - ElementName: 3D
+        ObjectType: 4
+      - ElementName: Play_CarSmoke
+        ObjectType: 3
+      Path: Default Work Unit\AMB\3D\Play_CarSmoke
+      maxAttenuation: 25
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Foliage
+      guid: 3d72e95cf8961e4c81ec242e4d1db6f0
+      id: 3773549739
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB
+        ObjectType: 4
+      - ElementName: 3D
+        ObjectType: 4
+      - ElementName: Play_Foliage
+        ObjectType: 3
+      Path: Default Work Unit\AMB\3D\Play_Foliage
+      maxAttenuation: 15
+      maxDuration: 37.268322
+      minDuration: 37.268322
+    - name: Play_Footsteps_Running
+      guid: 52b9e79d3687e7458819f546722de762
+      id: 203814959
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Play_Footsteps_Running
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Player\Play_Footsteps_Running
+      maxAttenuation: 0
+      maxDuration: 0.292018
+      minDuration: 0.102275
+    - name: Play_Footsteps_Walking
+      guid: 6d42e7750955b44e934d53cb04185d21
+      id: 1871925003
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Play_Footsteps_Walking
+        ObjectType: 3
+      Path: Default Work Unit\SFX\Player\Play_Footsteps_Walking
+      maxAttenuation: 0
+      maxDuration: 0.446463
+      minDuration: 0.088826
+    - name: Play_LoopTest_2D
+      guid: 29e70c4dbf45ef4084b5e38b4dd2114d
+      id: 70654913
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DEBUG
+        ObjectType: 4
+      - ElementName: Play_LoopTest_2D
+        ObjectType: 3
+      Path: Default Work Unit\DEBUG\Play_LoopTest_2D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_LoopTest_3D
+      guid: 611e40c748e47d4b960f6bcda98ee9e1
+      id: 53877366
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DEBUG
+        ObjectType: 4
+      - ElementName: Play_LoopTest_3D
+        ObjectType: 3
+      Path: Default Work Unit\DEBUG\Play_LoopTest_3D
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MetalContainer
+      guid: 0e7da3c81791e247867540adfc9407f3
+      id: 2378025672
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB
+        ObjectType: 4
+      - ElementName: 3D
+        ObjectType: 4
+      - ElementName: Play_MetalContainer
+        ObjectType: 3
+      Path: Default Work Unit\AMB\3D\Play_MetalContainer
+      maxAttenuation: 15
+      maxDuration: 31.521166
+      minDuration: 31.521166
+    - name: Play_RoosterCrow
+      guid: f82b4acd5504584c90cb5e6147eccb09
+      id: 2387564767
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: TimeNotify
+        ObjectType: 4
+      - ElementName: Play_RoosterCrow
+        ObjectType: 3
+      Path: Default Work Unit\SFX\TimeNotify\Play_RoosterCrow
+      maxAttenuation: 100
+      maxDuration: 2.519667
+      minDuration: 2.519667
+    - name: Play_SpotTest_2D
+      guid: 93ec5787e3f05342ba1bfbb18bdc21af
+      id: 3725630887
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DEBUG
+        ObjectType: 4
+      - ElementName: Play_SpotTest_2D
+        ObjectType: 3
+      Path: Default Work Unit\DEBUG\Play_SpotTest_2D
+      maxAttenuation: 25
+      maxDuration: 0.03083
+      minDuration: 0.03083
+    - name: Play_SpotTest_3D
+      guid: afb1de6ef4092245b31b7a2c726e8a1a
+      id: 3708853332
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DEBUG
+        ObjectType: 4
+      - ElementName: Play_SpotTest_3D
+        ObjectType: 3
+      Path: Default Work Unit\DEBUG\Play_SpotTest_3D
+      maxAttenuation: 25
+      maxDuration: 0.224215
+      minDuration: 0.224215
+    - name: Play_StreetLight
+      guid: 8beb58284b2a1741b24379c52d263886
+      id: 828506565
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB
+        ObjectType: 4
+      - ElementName: 3D
+        ObjectType: 4
+      - ElementName: Play_StreetLight
+        ObjectType: 3
+      Path: Default Work Unit\AMB\3D\Play_StreetLight
+      maxAttenuation: 25
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TarpCrate
+      guid: a1c666dfb0f76449aecc5025ad1e21c9
+      id: 3512793250
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB
+        ObjectType: 4
+      - ElementName: 3D
+        ObjectType: 4
+      - ElementName: Play_TarpCrate
+        ObjectType: 3
+      Path: Default Work Unit\AMB\3D\Play_TarpCrate
+      maxAttenuation: 15
+      maxDuration: 28.184343
+      minDuration: 28.184343
+    - name: Play_Windmill
+      guid: 97003de1680b2e4eb58d0060dca5eb4a
+      id: 1556206602
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AMB
+        ObjectType: 4
+      - ElementName: 3D
+        ObjectType: 4
+      - ElementName: Play_Windmill
+        ObjectType: 3
+      Path: Default Work Unit\AMB\3D\Play_Windmill
+      maxAttenuation: 25
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_WolfHowl
+      guid: 14658ca3e9f47b40bdd5241064052e41
+      id: 3582425144
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: TimeNotify
+        ObjectType: 4
+      - ElementName: Play_WolfHowl
+        ObjectType: 3
+      Path: Default Work Unit\SFX\TimeNotify\Play_WolfHowl
+      maxAttenuation: 100
+      maxDuration: 7.157354
+      minDuration: 7.157354
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 65914276e9f44942b79994d3e1b4e009
+    GuidInternal: 
+    m_lastTime: -8585161244843349333
+    List:
+    - name: Attenuation
+      guid: b0de7f515712bf4e89b23e50a7f9584a
+      id: 508408299
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Attenuation
+        ObjectType: 13
+      Path: Default Work Unit\Attenuation
+    - name: DayNight
+      guid: 4a12c83d3dad6a4a8f10ed33bf2771c5
+      id: 1705516017
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DayNight
+        ObjectType: 13
+      Path: Default Work Unit\DayNight
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7be9fcf077ebc04d8dd9db280b2e36e2
+    GuidInternal: 
+    m_lastTime: -8585159586315749700
+    List:
+    - name: InsideOutside
+      guid: f76a0b86ced9fe43a4700597deffb603
+      id: 3929688590
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: InsideOutside
+        ObjectType: 9
+      Path: Default Work Unit\InsideOutside
+      values:
+      - name: Inside
+        guid: 232654a706c7fc4491d0fe9f38cc45f4
+        id: 3553349781
+        PathAndIcons:
+        - ElementName: Inside
+          ObjectType: 8
+      - name: None
+        guid: 4f7404402d31aa41b20dc272626816ba
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Outside
+        guid: f2098b0c99d7f94095ebaec32839c387
+        id: 438105790
+        PathAndIcons:
+        - ElementName: Outside
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Location
+      guid: 0df20bc317b4a24c8b948f47aa82d037
+      id: 1176052424
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Location
+        ObjectType: 9
+      Path: Default Work Unit\Location
+      values:
+      - name: InTown
+        guid: f2c005e819f5d4479479e338fe5bad52
+        id: 3700428288
+        PathAndIcons:
+        - ElementName: InTown
+          ObjectType: 8
+      - name: None
+        guid: e362487a77bb8b49906600cd99e718bb
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: OutOfTown
+        guid: d28d5d4a12a43146a4d879b18a0141e8
+        id: 368685200
+        PathAndIcons:
+        - ElementName: OutOfTown
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 499b9d942b8938478ab7814bdc9cd081
+    GuidInternal: 
+    m_lastTime: -8585160344832619154
+    List:
+    - name: Footstep_Surfaces
+      guid: b6c4deb5583aa149a4cee2c6c5bc8e2d
+      id: 1265478494
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep_Surfaces
+        ObjectType: 11
+      Path: Default Work Unit\Footstep_Surfaces
+      values:
+      - name: Concrete
+        guid: 443f43734a076c4787d591dc9cf57e54
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Concrete
+          ObjectType: 10
+      - name: Metal
+        guid: 77d8466dd85a194e93932d432ac95516
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Metal
+          ObjectType: 10
+      - name: Rock
+        guid: 6a11f5ae5d4072429ef27a17e29d5cb2
+        id: 2144363834
+        PathAndIcons:
+        - ElementName: Rock
+          ObjectType: 10
+      - name: Sand
+        guid: 06430385ab369644bb0c3951772e2514
+        id: 803837735
+        PathAndIcons:
+        - ElementName: Sand
+          ObjectType: 10
+      - name: Wood
+        guid: 92ba2a7b1398054997dc07b7956aa55b
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Wood
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8abf2ebca55b8f4a87210e8e6168a1a8
+    GuidInternal: 
+    m_lastTime: -8586044517714775808
+    List: []
+  ExpandedItems:
+  - /Badlands_Environment_WwiseProject
+  - /Badlands_Environment_WwiseProject/Auxiliary Busses
+  - /Badlands_Environment_WwiseProject/Auxiliary Busses/Default Work Unit
+  - /Badlands_Environment_WwiseProject/Auxiliary Busses/Default Work Unit/Master
+    Audio Bus
+  - /Badlands_Environment_WwiseProject/Events
+  - /Badlands_Environment_WwiseProject/Events/Default Work Unit
+  - /Badlands_Environment_WwiseProject/Events/Default Work Unit/AMB
+  - /Badlands_Environment_WwiseProject/Events/Default Work Unit/AMB/3D
+  - /Badlands_Environment_WwiseProject/Events/Default Work Unit/DEBUG
+  - /Badlands_Environment_WwiseProject/Events/Default Work Unit/SFX
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

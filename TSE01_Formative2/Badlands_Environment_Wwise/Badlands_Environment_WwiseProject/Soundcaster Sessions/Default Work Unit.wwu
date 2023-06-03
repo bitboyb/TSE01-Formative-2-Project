@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6B84BDCD-9119-4309-B9E5-AC2AA2198DF9}" SchemaVersion="94">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{6B84BDCD-9119-4309-B9E5-AC2AA2198DF9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6B84BDCD-9119-4309-B9E5-AC2AA2198DF9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{9D9A5984-527A-40EE-8D83-01D6FA0F0000}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Ambience" ID="{C8E7BF92-2C58-488E-98D1-ED3419EFF9C4}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MetalContainer" ID="{C8A37D0E-9117-47E2-8675-40ADFC9407F3}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Foliage" ID="{5CE9723D-96F8-4C1E-81EC-242E4D1DB6F0}" WorkUnitID="{0E9C4193-7626-4BA5-A98B-BD61B1E27AD2}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="DayNight" ID="{3DC8124A-AD3D-4A6A-8F10-ED33BF2771C5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Attenuation" ID="{517FDEB0-1257-4EBF-89B2-3E50A7F9584A}"/>
+							<Value>20.7101907551752</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Inside" ID="{A7542623-C706-44FC-91D0-FE9F38CC45F4}"/>
+						<CurrentStateRef Name="OutOfTown" ID="{4A5D8DD2-A412-4631-A4D8-79B18A0141E8}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Concrete" ID="{73433F44-074A-476C-87D5-91DC9CF57E54}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

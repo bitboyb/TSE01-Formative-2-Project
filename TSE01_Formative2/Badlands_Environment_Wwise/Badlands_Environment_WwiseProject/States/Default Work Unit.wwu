@@ -10,6 +10,13 @@
 						<State Name="OutOfTown" ID="{4A5D8DD2-A412-4631-A4D8-79B18A0141E8}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="InsideOutside" ID="{860B6AF7-D9CE-43FE-A470-0597DEFFB603}">
+					<ChildrenList>
+						<State Name="None" ID="{4004744F-312D-41AA-B20D-C272626816BA}"/>
+						<State Name="Inside" ID="{A7542623-C706-44FC-91D0-FE9F38CC45F4}"/>
+						<State Name="Outside" ID="{0C8B09F2-D799-40F9-95EB-AEC32839C387}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
