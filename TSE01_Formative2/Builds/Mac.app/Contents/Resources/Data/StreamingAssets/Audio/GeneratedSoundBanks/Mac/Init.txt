@@ -1,0 +1,38 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1176052424	Location			\Default Work Unit\Location	
+	3929688590	InsideOutside			\Default Work Unit\InsideOutside	
+
+State	ID	Name	State Group			Notes
+	0	None	Location			
+	368685200	OutOfTown	Location			
+	3700428288	InTown	Location			
+	0	None	InsideOutside			
+	438105790	Outside	InsideOutside			
+	3553349781	Inside	InsideOutside			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	508408299	Attenuation			\Default Work Unit\Attenuation	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	511093792	3D			\Default Work Unit\Master Audio Bus\DEBUG\3D	
+	527871411	2D			\Default Work Unit\Master Audio Bus\DEBUG\2D	
+	1031089514	DEBUG			\Default Work Unit\Master Audio Bus\DEBUG	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\AMB	
+	1229365614	Notifies			\Default Work Unit\Master Audio Bus\SFX\Notifies	
+	2526046175	masterAmbience			\Default Work Unit\Master Audio Bus\AMB\masterAmbience	
+	3525696289	spotAmbience			\Default Work Unit\Master Audio Bus\AMB\spotAmbience	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	847970594	ContainerReverb			\Default Work Unit\Master Audio Bus\ContainerReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	3164629247	Holy	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

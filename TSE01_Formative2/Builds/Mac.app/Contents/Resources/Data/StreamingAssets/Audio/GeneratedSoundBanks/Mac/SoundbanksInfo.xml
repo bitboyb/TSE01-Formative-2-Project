@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\Unity Prototypes\TSE01-Formative-2-Project\TSE01_Formative2\Badlands_Environment_Wwise\Badlands_Environment_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Unity Prototypes\TSE01-Formative-2-Project\TSE01_Formative2\Badlands_Environment_Wwise\Badlands_Environment_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unity Prototypes\TSE01-Formative-2-Project\TSE01_Formative2\Badlands_Environment_Wwise\Badlands_Environment_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Unity Prototypes\TSE01-Formative-2-Project\TSE01_Formative2\Badlands_Environment_Wwise\Badlands_Environment_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2469504869" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master_SoundBank</ObjectPath>
+			<ShortName>Master_SoundBank</ShortName>
+			<Path>Master_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\AMB\Play_Ambience" DurationType="Infinite"/>
+				<Event Id="1644548843" Name="Play_CarSmoke" ObjectPath="\Events\Default Work Unit\AMB\3D\Play_CarSmoke" MaxAttenuation="25.000000" DurationType="Infinite"/>
+				<Event Id="3773549739" Name="Play_Foliage" ObjectPath="\Events\Default Work Unit\AMB\3D\Play_Foliage" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="37.268322" DurationMax="37.268322"/>
+				<Event Id="203814959" Name="Play_Footsteps_Running" ObjectPath="\Events\Default Work Unit\SFX\Player\Play_Footsteps_Running" DurationType="OneShot" DurationMin="0.102275" DurationMax="0.292018"/>
+				<Event Id="1871925003" Name="Play_Footsteps_Walking" ObjectPath="\Events\Default Work Unit\SFX\Player\Play_Footsteps_Walking" DurationType="OneShot" DurationMin="0.088826" DurationMax="0.446463"/>
+				<Event Id="70654913" Name="Play_LoopTest_2D" ObjectPath="\Events\Default Work Unit\DEBUG\Play_LoopTest_2D" DurationType="Infinite"/>
+				<Event Id="53877366" Name="Play_LoopTest_3D" ObjectPath="\Events\Default Work Unit\DEBUG\Play_LoopTest_3D" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="2378025672" Name="Play_MetalContainer" ObjectPath="\Events\Default Work Unit\AMB\3D\Play_MetalContainer" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="31.521166" DurationMax="31.521166"/>
+				<Event Id="2387564767" Name="Play_RoosterCrow" ObjectPath="\Events\Default Work Unit\SFX\TimeNotify\Play_RoosterCrow" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.519667" DurationMax="2.519667"/>
+				<Event Id="3725630887" Name="Play_SpotTest_2D" ObjectPath="\Events\Default Work Unit\DEBUG\Play_SpotTest_2D" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="0.030830" DurationMax="0.030830"/>
+				<Event Id="3708853332" Name="Play_SpotTest_3D" ObjectPath="\Events\Default Work Unit\DEBUG\Play_SpotTest_3D" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="0.224215" DurationMax="0.224215"/>
+				<Event Id="828506565" Name="Play_StreetLight" ObjectPath="\Events\Default Work Unit\AMB\3D\Play_StreetLight" MaxAttenuation="25.000000" DurationType="Infinite"/>
+				<Event Id="3512793250" Name="Play_TarpCrate" ObjectPath="\Events\Default Work Unit\AMB\3D\Play_TarpCrate" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="28.184343" DurationMax="28.184343"/>
+				<Event Id="1556206602" Name="Play_Windmill" ObjectPath="\Events\Default Work Unit\AMB\3D\Play_Windmill" MaxAttenuation="25.000000" DurationType="Infinite"/>
+				<Event Id="3582425144" Name="Play_WolfHowl" ObjectPath="\Events\Default Work Unit\SFX\TimeNotify\Play_WolfHowl" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="7.157354" DurationMax="7.157354"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="3852161" Language="SFX">
+					<ShortName>amb_3D_carSmoke_loop_far.wav</ShortName>
+					<Path>SFX\amb_3D_carSmoke_loop_far_571A061A.wem</Path>
+				</File>
+				<File Id="30905914" Language="SFX">
+					<ShortName>amb_3D_lampPost_Loop_UNEDITED.wav</ShortName>
+					<Path>SFX\amb_3D_lampPost_Loop_UNEDITED_0B427686.wem</Path>
+				</File>
+				<File Id="42857080" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_007.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_007_F2B9B919.wem</Path>
+				</File>
+				<File Id="43281678" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_000.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_000_F2B9B919.wem</Path>
+				</File>
+				<File Id="46618254" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_004.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_004_F2B9B919.wem</Path>
+				</File>
+				<File Id="50895250" Language="SFX">
+					<ShortName>amb_2D_town_day.wav</ShortName>
+					<Path>SFX\amb_2D_town_day_09ED01EF.wem</Path>
+				</File>
+				<File Id="82132433" Language="SFX">
+					<ShortName>amb_3D_windmill_loop_close_UNEDITED.wav</ShortName>
+					<Path>SFX\amb_3D_windmill_loop_close_UNEDITED_15A7BA99.wem</Path>
+				</File>
+				<File Id="89705171" Language="SFX">
+					<ShortName>sfx_Player_OnRun_rock_003.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_rock_003_F2B9B919.wem</Path>
+				</File>
+				<File Id="98500354" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_005.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_005_F2B9B919.wem</Path>
+				</File>
+				<File Id="116930190" Language="SFX">
+					<ShortName>amb_3D_lampPost_electricalFlicker_UNEDITED.wav</ShortName>
+					<Path>SFX\amb_3D_lampPost_electricalFlicker_UNEDITED_A4A0CB34.wem</Path>
+				</File>
+				<File Id="122373130" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_006.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_006_F2B9B919.wem</Path>
+				</File>
+				<File Id="122416867" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_003.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_003_F2B9B919.wem</Path>
+				</File>
+				<File Id="128349370" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_001.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_001_F2B9B919.wem</Path>
+				</File>
+				<File Id="144947415" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_003.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_003_F2B9B919.wem</Path>
+				</File>
+				<File Id="144986839" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_009.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_009_F2B9B919.wem</Path>
+				</File>
+				<File Id="157691734" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_002.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_002_F2B9B919.wem</Path>
+				</File>
+				<File Id="181330047" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_008.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_008_F2B9B919.wem</Path>
+				</File>
+				<File Id="219860105" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_002.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_002_F2B9B919.wem</Path>
+				</File>
+				<File Id="222555024" Language="SFX">
+					<ShortName>250Hz_44100Hz_16bit_05sec.wav</ShortName>
+					<Path>SFX\250Hz_44100Hz_16bit_05sec_552BE047.wem</Path>
+				</File>
+				<File Id="232377392" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_008.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_008_F2B9B919.wem</Path>
+				</File>
+				<File Id="240451468" Language="SFX">
+					<ShortName>sfx_Player_OnRun_concrete_003.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_concrete_003_F2B9B919.wem</Path>
+				</File>
+				<File Id="255854249" Language="SFX">
+					<ShortName>sfx_Player_OnRun_sand_003.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_sand_003_F2B9B919.wem</Path>
+				</File>
+				<File Id="264828257" Language="SFX">
+					<ShortName>amb_2D_wilderness_night.wav</ShortName>
+					<Path>SFX\amb_2D_wilderness_night_6E651C88.wem</Path>
+				</File>
+				<File Id="266159444" Language="SFX">
+					<ShortName>sfx_Player_OnRun_sand_000.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_sand_000_F2B9B919.wem</Path>
+				</File>
+				<File Id="266628586" Language="SFX">
+					<ShortName>sx_Player_OnWalk_concrete_000.wav</ShortName>
+					<Path>SFX\sx_Player_OnWalk_concrete_000_F2B9B919.wem</Path>
+				</File>
+				<File Id="280809369" Language="SFX">
+					<ShortName>sfx_Player_OnRun_concrete_004.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_concrete_004_F2B9B919.wem</Path>
+				</File>
+				<File Id="309662478" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_004.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_004_F2B9B919.wem</Path>
+				</File>
+				<File Id="333304797" Language="SFX">
+					<ShortName>sfx_rooster_OnCrow.wav</ShortName>
+					<Path>SFX\sfx_rooster_OnCrow_4D3F0C6A.wem</Path>
+				</File>
+				<File Id="355148157" Language="SFX">
+					<ShortName>sfx_Player_OnRun_sand_004.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_sand_004_F2B9B919.wem</Path>
+				</File>
+				<File Id="368391225" Language="SFX">
+					<ShortName>sfx_Player_OnRun_rock_000.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_rock_000_F2B9B919.wem</Path>
+				</File>
+				<File Id="381106173" Language="SFX">
+					<ShortName>sx_Player_OnWalk_concrete_001.wav</ShortName>
+					<Path>SFX\sx_Player_OnWalk_concrete_001_F2B9B919.wem</Path>
+				</File>
+				<File Id="390257179" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_005.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_005_F2B9B919.wem</Path>
+				</File>
+				<File Id="393735318" Language="SFX">
+					<ShortName>sfx_Player_OnRun_sand_001.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_sand_001_F2B9B919.wem</Path>
+				</File>
+				<File Id="424111317" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_metal_000.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_metal_000_F2B9B919.wem</Path>
+				</File>
+				<File Id="432301288" Language="SFX">
+					<ShortName>sfx_Player_OnRun_wood_002.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_wood_002_F2B9B919.wem</Path>
+				</File>
+				<File Id="439602184" Language="SFX">
+					<ShortName>sfx_Player_OnRun_rock_004.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_rock_004_F2B9B919.wem</Path>
+				</File>
+				<File Id="441736205" Language="SFX">
+					<ShortName>250Hz_44100Hz_16bit_05sec.wav</ShortName>
+					<Path>SFX\250Hz_44100Hz_16bit_05sec_A8DEAEBE.wem</Path>
+				</File>
+				<File Id="460934350" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_005.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_005_F2B9B919.wem</Path>
+				</File>
+				<File Id="484681516" Language="SFX">
+					<ShortName>250Hz_44100Hz_16bit_05sec.wav</ShortName>
+					<Path>SFX\250Hz_44100Hz_16bit_05sec_578F96C7.wem</Path>
+				</File>
+				<File Id="501099586" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_metal_001.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_metal_001_F2B9B919.wem</Path>
+				</File>
+				<File Id="503122745" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_008.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_008_F2B9B919.wem</Path>
+				</File>
+				<File Id="510735361" Language="SFX">
+					<ShortName>sfx_Player_OnRun_wood_003.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_wood_003_F2B9B919.wem</Path>
+				</File>
+				<File Id="518565139" Language="SFX">
+					<ShortName>250Hz_44100Hz_16bit_05sec.wav</ShortName>
+					<Path>SFX\250Hz_44100Hz_16bit_05sec_0ACBF527.wem</Path>
+				</File>
+				<File Id="520476145" Language="SFX">
+					<ShortName>sfx_Player_OnRun_wood_000.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_wood_000_F2B9B919.wem</Path>
+				</File>
+				<File Id="537677282" Language="SFX">
+					<ShortName>sfx_Player_OnRun_wood_004.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_wood_004_F2B9B919.wem</Path>
+				</File>
+				<File Id="567255402" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_007.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_007_F2B9B919.wem</Path>
+				</File>
+				<File Id="569945684" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_009.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_009_F2B9B919.wem</Path>
+				</File>
+				<File Id="571422104" Language="SFX">
+					<ShortName>sx_Player_OnWalk_concrete_002.wav</ShortName>
+					<Path>SFX\sx_Player_OnWalk_concrete_002_F2B9B919.wem</Path>
+				</File>
+				<File Id="595554370" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_003.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_003_F2B9B919.wem</Path>
+				</File>
+				<File Id="600699643" Language="SFX">
+					<ShortName>sfx_Player_OnRun_concrete_002.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_concrete_002_F2B9B919.wem</Path>
+				</File>
+				<File Id="634328826" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_007.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_007_F2B9B919.wem</Path>
+				</File>
+				<File Id="650564407" Language="SFX">
+					<ShortName>amb_2D_town_night.wav</ShortName>
+					<Path>SFX\amb_2D_town_night_69A331AE.wem</Path>
+				</File>
+				<File Id="651365120" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_002.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_002_F2B9B919.wem</Path>
+				</File>
+				<File Id="658657792" Language="SFX">
+					<ShortName>sfx_Player_OnRun_concrete_001.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_concrete_001_F2B9B919.wem</Path>
+				</File>
+				<File Id="690296364" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_000.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_000_F2B9B919.wem</Path>
+				</File>
+				<File Id="729650807" Language="SFX">
+					<ShortName>sfx_Player_OnRun_wood_001.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_wood_001_F2B9B919.wem</Path>
+				</File>
+				<File Id="765351061" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_metal_003.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_metal_003_F2B9B919.wem</Path>
+				</File>
+				<File Id="795145794" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_004.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_004_F2B9B919.wem</Path>
+				</File>
+				<File Id="795826149" Language="SFX">
+					<ShortName>amb_3D_carSmoke_loop_close_UNEDITED.wav</ShortName>
+					<Path>SFX\amb_3D_carSmoke_loop_close_UNEDITED_12535A1D.wem</Path>
+				</File>
+				<File Id="837934596" Language="SFX">
+					<ShortName>amb_3D_metal_OnCreek_UNEDITED_01.wav</ShortName>
+					<Path>SFX\amb_3D_metal_OnCreek_UNEDITED_01_4D3F0C6A.wem</Path>
+				</File>
+				<File Id="845497413" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_metal_004.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_metal_004_F2B9B919.wem</Path>
+				</File>
+				<File Id="847463840" Language="SFX">
+					<ShortName>amb_3D_windmill_loop_far_UNEDITED.wav</ShortName>
+					<Path>SFX\amb_3D_windmill_loop_far_UNEDITED_7947D091.wem</Path>
+				</File>
+				<File Id="878956029" Language="SFX">
+					<ShortName>amb_2D_wilderness_day.wav</ShortName>
+					<Path>SFX\amb_2D_wilderness_day_F8F632EF.wem</Path>
+				</File>
+				<File Id="898658118" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_000.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_000_F2B9B919.wem</Path>
+				</File>
+				<File Id="902692810" Language="SFX">
+					<ShortName>sfx_foliage_loop_UNEDITED.wav</ShortName>
+					<Path>SFX\sfx_foliage_loop_UNEDITED_1470B3C6.wem</Path>
+				</File>
+				<File Id="909333627" Language="SFX">
+					<ShortName>sfx_Player_OnRun_rock_001.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_rock_001_F2B9B919.wem</Path>
+				</File>
+				<File Id="912957705" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_009.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_009_F2B9B919.wem</Path>
+				</File>
+				<File Id="926988205" Language="SFX">
+					<ShortName>sfx_Player_OnRun_concrete_000.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_concrete_000_F2B9B919.wem</Path>
+				</File>
+				<File Id="947251188" Language="SFX">
+					<ShortName>sfx_Player_OnRun_sand_002.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_sand_002_F2B9B919.wem</Path>
+				</File>
+				<File Id="952537616" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_006.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_006_F2B9B919.wem</Path>
+				</File>
+				<File Id="962703939" Language="SFX">
+					<ShortName>sfx_Player_OnRun_rock_002.wav</ShortName>
+					<Path>SFX\sfx_Player_OnRun_rock_002_F2B9B919.wem</Path>
+				</File>
+				<File Id="998085165" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_wood_001.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_wood_001_F2B9B919.wem</Path>
+				</File>
+				<File Id="1005800822" Language="SFX">
+					<ShortName>amb_3d_tarpCrate_loop.wav</ShortName>
+					<Path>SFX\amb_3d_tarpCrate_loop_4D3F0C6A.wem</Path>
+				</File>
+				<File Id="1027664223" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_sand_006.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_sand_006_F2B9B919.wem</Path>
+				</File>
+				<File Id="1029964879" Language="SFX">
+					<ShortName>sfx_Player_OnWalk_rock_001.wav</ShortName>
+					<Path>SFX\sfx_Player_OnWalk_rock_001_F2B9B919.wem</Path>
+				</File>
+				<File Id="1065479410" Language="SFX">
+					<ShortName>sx_Player_OnWalk_concrete_003.wav</ShortName>
+					<Path>SFX\sx_Player_OnWalk_concrete_003_F2B9B919.wem</Path>
+				</File>
+				<File Id="1066767460" Language="SFX">
+					<ShortName>sfx_wolf_OnHowl.wav</ShortName>
+					<Path>SFX\sfx_wolf_OnHowl_4D3F0C6A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
